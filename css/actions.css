@@ -1,0 +1,240 @@
+/*-----------HEADER LINK-------------*/
+
+.header__nav-link {
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.header__nav-link:focus {
+  background: #7943A4;
+  color: #FFF;
+}
+
+.header__nav-link:hover {
+  color: #C283F3;
+  background: none;
+}
+
+.header__nav-link:active {
+  color: #7943A4;
+  background: none;
+}
+
+/*---------- HEADER SEARCH -------------*/
+
+.header__search-icon {
+  transition: background-color .3s ease-in-out, fill .3s ease-in-out;
+}
+
+.header__search-btn:focus .header__search-icon {
+  fill: #FFF;
+  background: #7943A4;
+}
+
+.header__search-btn:hover .header__search-icon {
+  fill: #C283F3;
+  background: none;
+}
+
+.header__search-btn:active .header__search-icon {
+  fill: #9D5CD0;
+  background: none;
+}
+
+/* -----------HERO BTN -----------*/
+
+.hero__btn {
+  transition: background-color .3s ease-in-out, outline .3s ease-in-out, outline-offset .3s ease-in-out, outline-width .1s ease-in-out;
+}
+
+.hero__btn:focus {
+  outline: 2px solid #C283F3;
+  outline-offset: 5px;
+  background: #9D5CD0;
+}
+
+.hero__btn:hover {
+  outline: 3px solid #D1A9F0;
+  outline-offset: 0px;
+  background: #9D5CD0;
+}
+
+.hero__btn:active {
+  outline: 3px solid #D1A9F0;
+  outline-offset: 0px;
+  background: #7943A4;
+}
+
+/*----------GALLERY RADIO ---------*/
+
+.gallery__radio-label {
+  transition: color .3s ease-in-out;
+}
+
+.gallery__radio-label::before {
+  transition: background .3s ease-in-out, outline .3s ease-in-out;
+}
+
+.gallery__radio-input:checked+.gallery__radio-label::before {
+  outline: 1px solid #C283F3;
+  background-size: 50%;
+}
+
+.gallery__radio-input:hover+.gallery__radio-label::before {
+  outline: 1px solid #C283F3;
+}
+
+.gallery__radio-input:hover+.gallery__radio-label {
+  color: #FFF;
+}
+
+.gallery__radio-input:focus+.gallery__radio-label::before {
+  outline: 1px solid #C283F3;
+}
+
+.gallery__radio-input:focus+.gallery__radio-label {
+  color: #C283F3;
+}
+
+.gallery__radio-input:active+.gallery__radio-label::before {
+  outline: 1px solid #C283F3;
+}
+
+.gallery__radio-input:active+.gallery__radio-label {
+  color: #C283F3;
+}
+
+/*------------ EVENT_LINK ---------------*/
+
+.event__item-link {
+  transition: background-color .3s ease-in-out, color .3s ease-in-out, border .3s ease-in-out;
+}
+
+.event__item-link::before {
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.event__item-underline {
+  transition: background-color .3s ease-in-out
+}
+
+.event__item-link:focus::before {
+  background: #9D5CD0;
+}
+
+.event__item-link:focus .event__item-underline {
+  background: #FFF;
+}
+
+.event__item-link:focus {
+  color: #FFF;
+}
+
+.event__item-link:hover::before {
+  background: none;
+}
+
+.event__item-link:hover .event__item-underline {
+  background: #7943A4;
+}
+
+.event__item-link:hover {
+  color: #7943A4;
+}
+
+.event__item-link:active::before {
+  background: none;
+}
+
+.event__item-link:active .event__item-underline {
+  background: #333;
+}
+
+.event__item-link:active {
+  color: #333;
+}
+
+/*-----------contact social link -----------------*/
+.contacts__social-link {
+  transition: opacity .3s ease-in-out;
+}
+
+.contacts__social-link:focus {
+  opacity: 0.5;
+}
+
+.contacts__social-link:hover {
+  opacity: 0.5;
+}
+
+.contacts__social-link:active {
+  opacity: 1;
+}
+
+.contacts__social-link:active path:first-child {
+  stroke: #9D5CD0
+}
+
+/*----------------footer social link------------------*/
+
+.footer__social-link path {
+  transition: fill .3s ease-in-out;
+}
+
+.footer__social-link:focus path {
+  fill: #FFF;
+}
+
+.footer__social-link:hover path {
+  fill: #FFF;
+}
+
+.footer__social-link:active path {
+  fill: #9D5CD0;
+}
+
+/*---------------contacts form ---------------------*/
+
+.contacts__input {
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.contacts__input:focus {
+  border: 1px solid #333 !important;
+  background: #FFF;
+}
+
+.contacts__input:hover {
+  background: #ECECEC;
+}
+
+.contacts__input:active {
+
+  background: #FFF;
+}
+
+/* -----------CONTACT BTN -----------*/
+
+.contacts__form-btn {
+  transition: background-color .3s ease-in-out, outline .3s ease-in-out, outline-offset .3s ease-in-out, outline-width .1s ease-in-out, color .3s ease-in-out;
+}
+
+.contacts__form-btn:focus {
+  outline: 2px solid #C283F3;
+  outline-offset: 5px;
+  background: none;
+  color: #9D5CD0;
+}
+
+.contacts__form-btn:hover {
+  outline: none;
+  outline-offset: 0px;
+  background: #9D5CD0;
+  color: #FFF;
+}
+
+.contacts__form-btn:active {
+  outline: 3px solid #D1A9F0;
+  outline-offset: 0px;
+  background: #7943A4;
+  color: #FFF;
+}
